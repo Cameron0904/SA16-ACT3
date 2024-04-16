@@ -1,0 +1,30 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Page</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'styles.css' %}">
+</head>
+<html>
+    <nav>
+        <ul>
+            <h1>Cameron's Portfolio</h1>
+            <li><a href="/about/">About</a></li>
+            <li><a href="/home/">Home</a></li>
+            <li><a href="/contact/">Contact</a></li>
+        </ul>
+    </nav>
+    <body>
+        <h1>My Work:</h1>
+
+        <img src="{% static 'AR4-02.jpg' %}">
+        <p>A simple To-Do List created within Ruby-On-Rails Architecture.</p>
+        <img src="{% static 'pt5-06.jpg'%}">
+        <p>A nested routed Track create page, with album assoiations of each track. </p>
+    </body>
+    <footer>
+        <h2>Cameron's Portfolio 2024</h2>
+    </footer>
+</html>
